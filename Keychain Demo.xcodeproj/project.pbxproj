@@ -13,6 +13,7 @@
 		4B6434BD2B2184DE003B293B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B6434BB2B2184DE003B293B /* Main.storyboard */; };
 		4B6434BF2B2184DF003B293B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6434BE2B2184DF003B293B /* Assets.xcassets */; };
 		4B6434C22B2184DF003B293B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B6434C02B2184DF003B293B /* LaunchScreen.storyboard */; };
+		4B6434CB2B271B25003B293B /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6434CA2B271B25003B293B /* KeychainManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4B6434BE2B2184DF003B293B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B6434C12B2184DF003B293B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B6434C32B2184DF003B293B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B6434CA2B271B25003B293B /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		4B6434B42B2184DE003B293B /* Keychain Demo */ = {
 			isa = PBXGroup;
 			children = (
+				4B6434C92B271B12003B293B /* KeychainHelper */,
 				4B6434B52B2184DE003B293B /* AppDelegate.swift */,
 				4B6434B72B2184DE003B293B /* SceneDelegate.swift */,
 				4B6434B92B2184DE003B293B /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				4B6434C32B2184DF003B293B /* Info.plist */,
 			);
 			path = "Keychain Demo";
+			sourceTree = "<group>";
+		};
+		4B6434C92B271B12003B293B /* KeychainHelper */ = {
+			isa = PBXGroup;
+			children = (
+				4B6434CA2B271B25003B293B /* KeychainManager.swift */,
+			);
+			path = KeychainHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				4B6434BA2B2184DE003B293B /* ViewController.swift in Sources */,
 				4B6434B62B2184DE003B293B /* AppDelegate.swift in Sources */,
 				4B6434B82B2184DE003B293B /* SceneDelegate.swift in Sources */,
+				4B6434CB2B271B25003B293B /* KeychainManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
